@@ -6,8 +6,8 @@
 class Goversbx < Formula
   desc "Human-approved outbound network access for agents in Docker Sandboxes"
   homepage "https://github.com/fabian-dot-run/goversbx"
-  url "https://github.com/fabian-dot-run/goversbx/releases/download/v0.2.6/goversbx-0.2.6-darwin-arm64.tar.gz"
-  sha256 "23a0c26119b6420c3ee80ea29de425635dedb4624589bd043864274ac1b3b284"
+  url "https://github.com/fabian-dot-run/goversbx/releases/download/v0.2.7/goversbx-0.2.7-darwin-arm64.tar.gz"
+  sha256 "af2988ffea9b4c6a7e0e82bfee8a89ddd77ffd7452373c0bd33c694ebec18879"
 
   depends_on arch: :arm64
   depends_on :macos

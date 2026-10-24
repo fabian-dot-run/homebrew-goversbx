@@ -6,8 +6,8 @@
 class Goversbx < Formula
   desc "Human-approved outbound network access for agents in Docker Sandboxes"
   homepage "https://github.com/fabian-dot-run/goversbx"
-  url "https://github.com/fabian-dot-run/goversbx/releases/download/v0.3.0/goversbx-0.3.0-darwin-arm64.tar.gz"
-  sha256 "ba9f72164cc49b60dc8d0e3a4cbfd596b8ecb266fcde9c42dceb741fe3b23146"
+  url "https://github.com/fabian-dot-run/goversbx/releases/download/v0.4.0/goversbx-0.4.0-darwin-arm64.tar.gz"
+  sha256 "9a574cf663ada5513520a778bc61d7e653073b15d9d3881c2160be32cb746b8f"
 
   depends_on arch: :arm64
   depends_on :macos
@@ -43,7 +43,7 @@ class Goversbx < Formula
                                         (--goversbx-kit pi|omp|opencode for other agents)
       Standard hosts of a project:      <workspace>/.goversbx/network.yaml (one approval per sandbox)
 
-      What changed in 0.3.0: https://github.com/fabian-dot-run/goversbx/releases/tag/v0.3.0
+      What changed in 0.4.0: https://github.com/fabian-dot-run/goversbx/releases/tag/v0.4.0
       After an upgrade, restart the daemon: brew services restart goversbx (or goversbx stop && goversbx start)
     EOS
   end
